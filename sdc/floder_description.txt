@@ -1,0 +1,9 @@
+In the context of FPGA projects, the "sdc" folder typically refers to a directory that contains SDC (Synopsys Design Constraints) files. SDC is a file format used to specify design constraints in digital designs, particularly in the context of synthesis and place-and-route processes.
+
+The SDC files in the "sdc" folder define timing, placement, and other constraints that guide the synthesis and implementation tools in optimizing the design and ensuring proper functionality. These constraints include timing requirements, clock definitions, input/output delay specifications, and other timing-related constraints.
+
+The SDC files provide critical information to the synthesis and place-and-route tools to achieve the desired performance, meet timing requirements, and ensure correct functionality of the design on the FPGA hardware.
+
+The "sdc" folder is often found in FPGA projects, alongside other project files and directories. It is a common practice to organize SDC files in a separate folder to keep them distinct from other project-related files and to provide easier access and management of the constraints.
+
+When working with an FPGA project, it is important to properly define and specify the necessary constraints in SDC files within the "sdc" folder to ensure the design meets the required performance, timing, and functionality requirements when implemented on the FPGA device.

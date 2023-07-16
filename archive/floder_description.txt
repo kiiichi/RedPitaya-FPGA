@@ -1,0 +1,11 @@
+In an FPGA project, an "archive" folder typically refers to a directory that contains archived or compressed files related to the project. The purpose of an archive folder is to store files that are not actively used during the development process but may be needed for reference or future use.
+
+The specific file you mentioned, "fpga_0.93.bit.xz," appears to be an archived FPGA bitstream file. A bitstream is a binary file that contains the configuration data necessary to program the FPGA and define its functionality. The ".bit" extension indicates that it is a bitstream file.
+
+The ".xz" extension suggests that the file has been compressed using the XZ compression algorithm, which is commonly used for efficient file compression in Unix-like systems.
+
+By archiving and compressing the FPGA bitstream file, it is possible to reduce the file size and save storage space. Additionally, archiving can help organize and preserve different versions or releases of the bitstream files.
+
+The "archive" folder in an FPGA project may contain various archived files, including previous versions of the bitstream files, backup files, documentation, test data, or any other files that are not actively used in the current development phase but are still important for the project.
+
+Having an archive folder allows for better project management, version control, and preservation of important project artifacts that may be needed in the future, such as for bug fixing, verification, or production release purposes.

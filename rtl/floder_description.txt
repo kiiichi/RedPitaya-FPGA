@@ -1,0 +1,11 @@
+In an FPGA project, the "rtl" folder typically refers to a directory that contains the RTL (Register Transfer Level) source code files. RTL is a hardware description abstraction level that represents the behavior and structure of a digital design in terms of registers, data flow, and control signals.
+
+The RTL files in the "rtl" folder contain the hardware description of the design components written in a hardware description language (HDL) such as Verilog or VHDL. These files define the functional behavior and structure of the digital circuit to be implemented on the FPGA.
+
+The RTL code describes the design at a lower level of abstraction compared to higher-level languages like C or C++. It focuses on capturing the register transfers and logical operations that define the functionality of the digital circuit.
+
+The "rtl" folder is often organized within an FPGA project to separate the RTL source files from other project-related files, such as constraints, testbenches, or documentation. This organization helps keep the project structured and facilitates easier access and management of the design source code.
+
+When working on an FPGA project, designers typically write or import RTL code into the "rtl" folder, define the functionality of their design components, and interconnect them as necessary. The RTL files serve as the basis for the synthesis and implementation processes to generate the appropriate hardware configuration for the FPGA.
+
+It is common to find subdirectories within the "rtl" folder to further organize the RTL code based on modules, subsystems, or specific design components, depending on the complexity of the project.

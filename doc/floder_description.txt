@@ -1,0 +1,15 @@
+In an FPGA project, a "doc" folder typically refers to a directory that contains documentation files related to the project. The purpose of the "doc" folder is to store various documentation materials and resources that provide information about the FPGA design, its functionality, usage, or other relevant details.
+
+In this context, the "doc" folder might include files like:
+
+1. User manuals or guides: These documents provide instructions, guidelines, or reference information for users or developers working with the FPGA project. They may include details on how to set up and use the FPGA design, explanations of the design's features, or descriptions of specific functionalities.
+
+2. Block diagrams or schematics: These files, such as "redpitaya_block.odg" and "redpitaya_block.odt" in your case, could contain visual representations of the FPGA design's architecture, showing the different functional blocks, interconnections, and interfaces within the design. "ODG" and "ODT" are file extensions associated with LibreOffice Draw and LibreOffice Writer, respectively, indicating that these files may contain graphical or text-based representations of the FPGA design.
+
+3. Design specifications or requirements: These documents outline the specifications, constraints, or requirements that the FPGA design must meet. They can include details such as performance requirements, power constraints, input/output specifications, or timing requirements.
+
+4. Test plans or test documentation: These documents describe the test strategy, test procedures, and test cases to verify the FPGA design's functionality and performance. They provide guidance for testing and validating the design against specific requirements or use cases.
+
+The "doc" folder helps organize and store important documentation related to the FPGA project, making it easily accessible to developers, users, or other stakeholders involved in the project.
+
+Having comprehensive documentation in the "doc" folder ensures that essential information about the FPGA design is available, promoting effective communication, understanding, and collaboration throughout the project's lifecycle.

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sun Jul 16 21:15:29 2023
+# Process ID: 12016
+# Current directory: C:/Users/kichi/Documents/kichi@git/RedPitaya-FPGA
+# Command line: vivado.exe -mode batch -source red_pitaya_vivado_project_Z10.tcl -tclargs projectname
+# Log file: C:/Users/kichi/Documents/kichi@git/RedPitaya-FPGA/vivado.log
+# Journal file: C:/Users/kichi/Documents/kichi@git/RedPitaya-FPGA\vivado.jou
+# Running On: Home, OS: Windows, CPU Frequency: 3494 MHz, CPU Physical cores: 14, Host memory: 34088 MB
+#-----------------------------------------------------------
+source red_pitaya_vivado_project_Z10.tcl
+# set prj_name [lindex $argv 0]
+# set prj_defs [lindex $argv 1]
+# puts "Project name: $prj_name"
+Project name: projectname
+# puts "Defines: $prj_defs"
+Defines: 
+# cd prj/$prj_name
+couldn't change working directory to "prj/projectname": no such file or directory
+    while executing
+"cd prj/$prj_name"
+    (file "red_pitaya_vivado_project_Z10.tcl" line 12)
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 16 21:15:30 2023...

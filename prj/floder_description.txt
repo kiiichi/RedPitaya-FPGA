@@ -1,0 +1,15 @@
+In an FPGA project, a "prj" folder typically refers to a directory that contains project-related files and resources. The "prj" folder is often used to organize and store files specific to the project setup, configuration, and synthesis.
+
+The exact contents of the "prj" folder may vary depending on the specific project and the tools used, but it commonly includes files such as:
+
+1. Project configuration files: These files contain settings and options specific to the project, such as synthesis directives, tool configurations, or project-specific constraints. These files are often used by the synthesis or place-and-route tools to guide the implementation process.
+
+2. Constraint files: These files define the design constraints for the FPGA project, including clock frequencies, input/output requirements, pin assignments, and other timing or electrical specifications. Constraint files help ensure that the design meets the required timing and functionality.
+
+3. Script files: The "prj" folder might contain script files used for automating project-related tasks or running specific commands during the design flow. These scripts can be used to execute synthesis, place-and-route, or simulation steps, or to customize the build process based on project-specific requirements.
+
+4. Supporting documentation: The "prj" folder can include documentation files specific to the project, such as project requirements, specifications, design notes, or project management documents.
+
+The purpose of the "prj" folder is to centralize and organize project-specific files and resources, making it easier to manage and maintain the FPGA project. It helps ensure that project-related files are easily accessible and facilitates collaboration among team members involved in the project.
+
+While the specific structure and contents of the "prj" folder can vary depending on the project and the design flow being followed, it serves as a dedicated location to store and manage project-specific files and resources for the FPGA project.

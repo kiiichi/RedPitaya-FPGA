@@ -1,0 +1,11 @@
+In the context of an FPGA project, a "dts" folder typically refers to a directory that contains Device Tree Source (DTS) files. DTS files are used in embedded systems, particularly in the Linux kernel, to describe the hardware configuration and device tree bindings for various devices on a system.
+
+The Device Tree is a data structure used by the Linux kernel to describe the hardware devices and their properties in a platform-agnostic way. The DTS files define the structure and properties of the hardware devices, such as memory regions, interrupts, clock frequencies, and device-specific configurations.
+
+The "dts" folder within an FPGA project may include DTS files specific to the FPGA platform or embedded system. These files are often used when integrating FPGA-based devices into Linux-based systems or when configuring the FPGA's interaction with other system components.
+
+The DTS files describe the hardware devices, their relationships, and their configurations in a textual representation. They can be compiled into a binary Device Tree Blob (DTB) file, which is then loaded by the Linux kernel at boot time to configure and enable the hardware devices.
+
+The "dts" folder in an FPGA project helps organize and store the DTS files specific to the FPGA platform or system. These files enable seamless integration of the FPGA hardware into the overall system, ensuring that the Linux kernel understands the hardware configuration and can interact with the FPGA-based devices properly.
+
+Note that the presence of a "dts" folder in an FPGA project assumes that the FPGA is being used in an embedded system context, typically running Linux or another operating system that relies on the Device Tree mechanism for hardware configuration.

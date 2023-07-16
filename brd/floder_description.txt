@@ -1,0 +1,13 @@
+In the context of an FPGA project, a "brd" folder typically refers to a directory that contains files related to the board design or PCB (Printed Circuit Board) layout. The "brd" folder is often used to store files associated with the physical design and layout of the circuit board that houses the FPGA device.
+
+Within the "brd" folder, you might find files such as:
+
+1. Board layout files: These files represent the physical layout of the circuit board, including component placements, routing information, and layer stack-up details. Common formats for board layout files include Gerber files (.gbr), ODB++ files (.obp), or specific formats used by PCB design software tools like Altium Designer (.pcbdoc) or Eagle (.brd).
+
+2. Schematic files: Schematic files represent the electrical connections and components used in the circuit design. They describe the functional relationships between different components on the board. Common formats for schematic files include PDF (.pdf), Altium Designer files (.schdoc), or Eagle files (.sch).
+
+3. Fabrication files: These files are used during the manufacturing process of the circuit board. They include files such as the bill of materials (BOM), assembly drawings, drill files, and other manufacturing-related documentation.
+
+The "brd" folder is usually dedicated to the board-level design and layout aspects of the FPGA project. It separates the board-related files from other project elements such as RTL code, constraints, testbenches, or documentation.
+
+When working on an FPGA project, collaboration with the PCB design team or incorporating the board design into the overall project requires easy access to the board-related files stored in the "brd" folder.
