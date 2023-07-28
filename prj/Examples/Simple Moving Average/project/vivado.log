@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Jul 28 19:08:43 2023
+# Process ID: 6512
+# Current directory: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17488 C:\Users\rinu2\Documents\kichi@git\RedPitaya-FPGA\prj\Examples\Simple Moving Average\project\redpitaya.xpr
+# Log file: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/vivado.log
+# Journal file: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.srcs/sources_1/bd/system/system.bd}
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - axi_protocol_converter_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_wr_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- xilinx.com:ip:xadc_wiz:3.3 - xadc
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant
+Successfully read diagram <system> from BD file <C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.srcs/sources_1/bd/system/system.bd>
+open_bd_design {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.srcs/sources_1/bd/system/system.bd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 28 19:10:39 2023...

@@ -52,4 +52,5 @@ module knight_rider(
 
     assign led_out = leds[8:1]; // wire output and leds register
     
+    
 endmodule

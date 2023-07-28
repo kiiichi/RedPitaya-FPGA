@@ -1,0 +1,119 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 17808
+License: Customer
+
+Current time: 	Fri Jul 28 17:55:52 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	rinu2
+User home directory: C:/Users/rinu2
+User working directory: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/rinu2/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/rinu2/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/rinu2/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/vivado.log
+Vivado journal file location: 	C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/vivado.jou
+Engine tmp dir: 	C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/.Xil/Vivado-17808-SU
+
+Xilinx Environment Variables
+----------------------------
+NKTP_SDK_PATH: C:\Users\Public\Documents\NKT Photonics\SDK
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,018 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// bz (cs):  Sourcing Tcl script 'Average_project.tcl' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: source Average_project.tcl 
+// Tcl Message: # set prj_name [lindex $argv 0] # set prj_defs [lindex $argv 1] # puts "Project name: $prj_name" 
+// Tcl Message: Project name: Simple Moving Average 
+// Tcl Message: # puts "Defines: $prj_defs" 
+// Tcl Message: Defines:  
+// Tcl Message: # cd prj/Examples/$prj_name # set path_brd ../../../brd # set path_rtl rtl # set path_ip  ip # set path_bd  project/redpitaya.srcs/sources_1/bd/system/hdl # set path_sdc ../../../sdc # set path_sdc_prj sdc # set path_tbn tbn # set_param board.repoPaths [list $path_brd] # set_param iconstr.diffPairPulltype {opposite} # set part xc7z010clg400-1 # create_project -part $part -force redpitaya ./project 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project' 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 108 MB (+111276kb) [00:00:06]
+// [Engine Memory]: 1,018 MB (+915659kb) [00:00:06]
+// WARNING: HEventQueue.dispatchEvent() is taking  1914 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,018 MB. GUI used memory: 57 MB. Current time: 7/28/23, 5:55:53 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1026.887 ; gain = 0.000 
+// Tcl Message: INFO: [BD::TCL 103-2003] Currently there is no design <system> in project, so creating one... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1276 ms.
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// Tcl Message: Wrote  : <C:\Users\rinu2\Documents\kichi@git\RedPitaya-FPGA\prj\Examples\Simple Moving Average\project\redpitaya.srcs\sources_1\bd\system\system.bd>  
