@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec 25 09:50:12 2023
+# Process ID: 14536
+# Current directory: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/transmitter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10312 C:\Users\rinu2\Documents\kichi@git\RedPitaya-FPGA\prj\Examples\transmitter\transmitter.xpr
+# Log file: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/transmitter/vivado.log
+# Journal file: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/transmitter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/transmitter/transmitter.xpr
+update_compile_order -fileset sources_1
+save_project_as transmitter C:/Users/rinu2/Documents/kichi@git/verilog-learning/prj/transmitter -force
+import_files
+open_bd_design {C:/Users/rinu2/Documents/kichi@git/verilog-learning/prj/transmitter/transmitter.srcs/sources_1/bd/system/system.bd}

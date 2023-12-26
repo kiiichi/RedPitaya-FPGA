@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Aug  6 08:48:11 2023
+# Process ID: 2676
+# Current directory: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5040 C:\Users\rinu2\Documents\kichi@git\RedPitaya-FPGA\prj\Examples\Simple Moving Average\project\redpitaya.xpr
+# Log file: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/vivado.log
+# Journal file: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.xpr}
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.srcs/sources_1/bd/system/system.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:tsn_endpoint_ethernet_mac:2.0 tsn_endpoint_etherne_0
+endgroup
+undo
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:fifo_generator:13.2 fifo_generator_0
+endgroup
+set_property location {0.5 -223 492} [get_bd_cells fifo_generator_0]
+delete_bd_objs [get_bd_cells fifo_generator_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0
+endgroup
+delete_bd_objs [get_bd_cells axis_data_fifo_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_data_fifo:2.1 axi_data_fifo_0
+endgroup
+delete_bd_objs [get_bd_cells axi_data_fifo_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_vfifo_ctrl:2.0 axi_vfifo_ctrl_0
+endgroup
+delete_bd_objs [get_bd_cells axi_vfifo_ctrl_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:fifo_generator:13.2 fifo_generator_0
+endgroup

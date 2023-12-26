@@ -1,0 +1,175 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Aug  6 08:48:11 2023
+# Process ID: 2676
+# Current directory: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5040 C:\Users\rinu2\Documents\kichi@git\RedPitaya-FPGA\prj\Examples\Simple Moving Average\project\redpitaya.xpr
+# Log file: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/vivado.log
+# Journal file: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1015.398 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.srcs/sources_1/bd/system/system.bd}
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - axi_protocol_converter_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_wr_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- xilinx.com:ip:xadc_wiz:3.3 - xadc
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant
+Successfully read diagram <system> from BD file <C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1169.887 ; gain = 0.000
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:tsn_endpoint_ethernet_mac:2.0 tsn_endpoint_etherne_0
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_ts_axis_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_tx_ts
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_ts_axis_tdata is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_tx_ts
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_ts_axis_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_ts
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_ts_axis_tdata is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_ts
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_statistics_vector is being overridden by the user. This pin will not be connected as a part of interface connection rx_statistics
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_statistics_valid is being overridden by the user. This pin will not be connected as a part of interface connection rx_statistics
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_statistics_vector is being overridden by the user. This pin will not be connected as a part of interface connection tx_statistics
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_statistics_valid is being overridden by the user. This pin will not be connected as a part of interface connection tx_statistics
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_ts_axis_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_tx_ts
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_ts_axis_tdata is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_tx_ts
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_ts_axis_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_ts
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_ts_axis_tdata is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_ts
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_statistics_vector is being overridden by the user. This pin will not be connected as a part of interface connection rx_statistics
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_statistics_valid is being overridden by the user. This pin will not be connected as a part of interface connection rx_statistics
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_statistics_vector is being overridden by the user. This pin will not be connected as a part of interface connection tx_statistics
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_statistics_valid is being overridden by the user. This pin will not be connected as a part of interface connection tx_statistics
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXIS_TX_TDATA is being overridden by the user. This pin will not be connected as a part of interface connection MAC_TX
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXIS_TX_TKEEP is being overridden by the user. This pin will not be connected as a part of interface connection MAC_TX
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXIS_TX_TLAST is being overridden by the user. This pin will not be connected as a part of interface connection MAC_TX
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXIS_TX_TUSER is being overridden by the user. This pin will not be connected as a part of interface connection MAC_TX
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXIS_TX_TVALID is being overridden by the user. This pin will not be connected as a part of interface connection MAC_TX
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_ARREADY is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_AWREADY is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_BRESP is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_BVALID is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_RDATA is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_RRESP is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_RVALID is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_WREADY is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1731] Type mismatch between connected pins: /switch_core_top_0/S_AXI_CLK(clk) and /tsn_endpoint_block_0/bus2ip_clk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /switch_core_top_0/S_AXI_RESETN(rst) and /tsn_endpoint_block_0/int_mgmt_host_reset_out_reg_n_switch(undef)
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/M_AXIS_RX_TDATA is being overridden by the user. This pin will not be connected as a part of interface connection MAC_RX
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/M_AXIS_RX_TKEEP is being overridden by the user. This pin will not be connected as a part of interface connection MAC_RX
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/M_AXIS_RX_TLAST is being overridden by the user. This pin will not be connected as a part of interface connection MAC_RX
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/M_AXIS_RX_TUSER is being overridden by the user. This pin will not be connected as a part of interface connection MAC_RX
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/M_AXIS_RX_TVALID is being overridden by the user. This pin will not be connected as a part of interface connection MAC_RX
+WARNING: [BD 41-1731] Type mismatch between connected pins: /switch_core_top_0/MAC_RX_CLK(clk) and /tsn_endpoint_block_0/mac_rx_clk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /switch_core_top_0/MAC_TX_CLK(clk) and /tsn_endpoint_block_0/mac_tx_clk(undef)
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_ARADDR is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_ARPROT is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_ARVALID is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_AWADDR is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_AWPROT is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_AWVALID is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_BREADY is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_RREADY is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_WDATA is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_WSTRB is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXI_WVALID is being overridden by the user. This pin will not be connected as a part of interface connection S_AXI
+WARNING: [BD 41-1306] The connection to interface pin /switch_core_top_0/S_AXIS_TX_TREADY is being overridden by the user. This pin will not be connected as a part of interface connection MAC_TX
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/tx_axis_mac_tdata is being overridden by the user. This pin will not be connected as a part of interface connection tx_axis_mac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/tx_axis_mac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection tx_axis_mac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/tx_axis_mac_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection tx_axis_mac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/tx_axis_pmac_tdata is being overridden by the user. This pin will not be connected as a part of interface connection tx_axis_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/tx_axis_pmac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection tx_axis_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/tx_axis_pmac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection tx_axis_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/tx_axis_pmac_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection tx_axis_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_axis_mac_tdata is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_axis_mac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_axis_mac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_axis_mac_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_axis_pmac_tdata is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_axis_pmac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_axis_pmac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/rx_axis_pmac_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_axis_mac_tready is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_axis_pmac_tready is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_axis_mac_tdata is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_axis_mac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_axis_mac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_axis_mac_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_axis_pmac_tdata is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_axis_pmac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_axis_pmac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/rx_axis_pmac_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection m_axis_rx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_axis_mac_tready is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_axis_pmac_tready is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/tx_axis_pmac_tready is being overridden by the user. This pin will not be connected as a part of interface connection tx_axis_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/rx_axis_pmac_tdata is being overridden by the user. This pin will not be connected as a part of interface connection rx_axis_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/rx_axis_pmac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection rx_axis_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/rx_axis_pmac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection rx_axis_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/rx_axis_pmac_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection rx_axis_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/tx_axis_mac_tready is being overridden by the user. This pin will not be connected as a part of interface connection tx_axis_mac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/rx_axis_mac_tdata is being overridden by the user. This pin will not be connected as a part of interface connection rx_axis_mac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/rx_axis_mac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection rx_axis_mac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/rx_axis_mac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection rx_axis_mac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/rx_axis_mac_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection rx_axis_mac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/pause_val is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_pause
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/pause_val is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_pause
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/pause_req is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_pause
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/pause_req is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_pause
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_axis_pmac_tdata is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_axis_mac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_axis_mac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_axis_mac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_axis_mac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_endpoint_block_0/tx_axis_mac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection tx_axis_mac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_axis_mac_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_axis_mac_tvalid is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_axis_pmac_tdata is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_axis_pmac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_axis_pmac_tlast is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_1/tx_axis_pmac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx_pmac
+WARNING: [BD 41-1306] The connection to interface pin /tsn_temac_2/tx_axis_pmac_tuser is being overridden by the user. This pin will not be connected as a part of interface connection s_axis_tx_pmac
+INFO: [Common 17-14] Message 'BD 41-1306' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [BD 41-1731] Type mismatch between connected pins: /interrupt_ptp_timer(intr) and /tsn_temac_1/interrupt_ptp_timer(undef)
+Slave segment '/tsn_endpoint_block_0/s_axi/Reg' is being assigned into address space '/s_axi' at <0x0000_0000 [ 256K ]>.
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'create_bd_cell -type ip -vlnv xilinx.com:ip:tsn_endpoint_ethernet_mac:2.0 tsn_endpoint_etherne_0'
+INFO: [Common 17-17] undo 'startgroup'
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:fifo_generator:13.2 fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_0Executing the post_config_ip from bd
+endgroup
+set_property location {0.5 -223 492} [get_bd_cells fifo_generator_0]
+delete_bd_objs [get_bd_cells fifo_generator_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0
+endgroup
+delete_bd_objs [get_bd_cells axis_data_fifo_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_data_fifo:2.1 axi_data_fifo_0
+endgroup
+delete_bd_objs [get_bd_cells axi_data_fifo_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_vfifo_ctrl:2.0 axi_vfifo_ctrl_0
+endgroup
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting range property is not allowed in procedure init_gui
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property is not allowed in procedure init_gui
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting enabled property is not allowed in procedure init_gui
+delete_bd_objs [get_bd_cells axi_vfifo_ctrl_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:fifo_generator:13.2 fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_0Executing the post_config_ip from bd
+endgroup
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug  7 17:19:32 2023...

@@ -2,15 +2,14 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Fri Jul 28 19:08:43 2023
-# Process ID: 6512
+# Start of session at: Mon Aug  7 20:01:43 2023
+# Process ID: 16044
 # Current directory: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17488 C:\Users\rinu2\Documents\kichi@git\RedPitaya-FPGA\prj\Examples\Simple Moving Average\project\redpitaya.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3796 C:\Users\rinu2\Documents\kichi@git\RedPitaya-FPGA\prj\Examples\Simple Moving Average\project\redpitaya.xpr
 # Log file: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/vivado.log
 # Journal file: C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.xpr}
+open_bd_design {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.srcs/sources_1/bd/system/system.bd}
 update_compile_order -fileset sources_1
-open_bd_design {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.srcs/sources_1/bd/system/system.bd}
-open_bd_design {C:/Users/rinu2/Documents/kichi@git/RedPitaya-FPGA/prj/Examples/Simple Moving Average/project/redpitaya.srcs/sources_1/bd/system/system.bd}
